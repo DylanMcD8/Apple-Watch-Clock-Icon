@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F0B86E2BBF71B300F103FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0B86D2BBF71B300F103FA /* AppDelegate.swift */; };
+		66F0B8702BBF71B300F103FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0B86F2BBF71B300F103FA /* SceneDelegate.swift */; };
+		66F0B8722BBF71B300F103FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0B8712BBF71B300F103FA /* ViewController.swift */; };
+		66F0B8752BBF71B300F103FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F0B8732BBF71B300F103FA /* Main.storyboard */; };
+		66F0B8772BBF71B400F103FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F0B8762BBF71B400F103FA /* Assets.xcassets */; };
+		66F0B87A2BBF71B400F103FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F0B8782BBF71B400F103FA /* LaunchScreen.storyboard */; };
+		66F0B8892BBF71CE00F103FA /* Clock Icon Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 66F0B8882BBF71CE00F103FA /* Clock Icon Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		66F0B88E2BBF71CE00F103FA /* Clock_IconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0B88D2BBF71CE00F103FA /* Clock_IconApp.swift */; };
+		66F0B8902BBF71CE00F103FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0B88F2BBF71CE00F103FA /* ContentView.swift */; };
+		66F0B8922BBF71CF00F103FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F0B8912BBF71CF00F103FA /* Assets.xcassets */; };
+		66F0B8952BBF71CF00F103FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F0B8942BBF71CF00F103FA /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F0B88A2BBF71CE00F103FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F0B8622BBF71B300F103FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F0B8872BBF71CE00F103FA;
+			remoteInfo = "Clock Icon Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66F0B8992BBF71CF00F103FA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				66F0B8892BBF71CE00F103FA /* Clock Icon Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		66F0B86A2BBF71B300F103FA /* watchOS Clock Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS Clock Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F0B86D2BBF71B300F103FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66F0B86F2BBF71B300F103FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66F0B8712BBF71B300F103FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66F0B8742BBF71B300F103FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F0B8762BBF71B400F103FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F0B8792BBF71B400F103FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66F0B87B2BBF71B400F103FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F0B8832BBF71CE00F103FA /* Clock Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F0B8882BBF71CE00F103FA /* Clock Icon Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock Icon Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F0B88D2BBF71CE00F103FA /* Clock_IconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock_IconApp.swift; sourceTree = "<group>"; };
+		66F0B88F2BBF71CE00F103FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		66F0B8912BBF71CF00F103FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66F0B8942BBF71CF00F103FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F0B8672BBF71B300F103FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F0B8852BBF71CE00F103FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F0B8612BBF71B300F103FA = {
+			isa = PBXGroup;
+			children = (
+				66F0B86C2BBF71B300F103FA /* watchOS Clock Icon */,
+				66F0B88C2BBF71CE00F103FA /* Clock Icon Watch App */,
+				66F0B86B2BBF71B300F103FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F0B86B2BBF71B300F103FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F0B86A2BBF71B300F103FA /* watchOS Clock Icon.app */,
+				66F0B8832BBF71CE00F103FA /* Clock Icon.app */,
+				66F0B8882BBF71CE00F103FA /* Clock Icon Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F0B86C2BBF71B300F103FA /* watchOS Clock Icon */ = {
+			isa = PBXGroup;
+			children = (
+				66F0B86D2BBF71B300F103FA /* AppDelegate.swift */,
+				66F0B86F2BBF71B300F103FA /* SceneDelegate.swift */,
+				66F0B8712BBF71B300F103FA /* ViewController.swift */,
+				66F0B8732BBF71B300F103FA /* Main.storyboard */,
+				66F0B8762BBF71B400F103FA /* Assets.xcassets */,
+				66F0B8782BBF71B400F103FA /* LaunchScreen.storyboard */,
+				66F0B87B2BBF71B400F103FA /* Info.plist */,
+			);
+			path = "watchOS Clock Icon";
+			sourceTree = "<group>";
+		};
+		66F0B88C2BBF71CE00F103FA /* Clock Icon Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				66F0B88D2BBF71CE00F103FA /* Clock_IconApp.swift */,
+				66F0B88F2BBF71CE00F103FA /* ContentView.swift */,
+				66F0B8912BBF71CF00F103FA /* Assets.xcassets */,
+				66F0B8932BBF71CF00F103FA /* Preview Content */,
+			);
+			path = "Clock Icon Watch App";
+			sourceTree = "<group>";
+		};
+		66F0B8932BBF71CF00F103FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66F0B8942BBF71CF00F103FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F0B8692BBF71B300F103FA /* watchOS Clock Icon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F0B87E2BBF71B400F103FA /* Build configuration list for PBXNativeTarget "watchOS Clock Icon" */;
+			buildPhases = (
+				66F0B8662BBF71B300F103FA /* Sources */,
+				66F0B8672BBF71B300F103FA /* Frameworks */,
+				66F0B8682BBF71B300F103FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS Clock Icon";
+			productName = "watchOS Clock Icon";
+			productReference = 66F0B86A2BBF71B300F103FA /* watchOS Clock Icon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F0B8822BBF71CE00F103FA /* Clock Icon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F0B89A2BBF71CF00F103FA /* Build configuration list for PBXNativeTarget "Clock Icon" */;
+			buildPhases = (
+				66F0B8812BBF71CE00F103FA /* Resources */,
+				66F0B8992BBF71CF00F103FA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F0B88B2BBF71CE00F103FA /* PBXTargetDependency */,
+			);
+			name = "Clock Icon";
+			productName = "Clock Icon";
+			productReference = 66F0B8832BBF71CE00F103FA /* Clock Icon.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		66F0B8872BBF71CE00F103FA /* Clock Icon Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F0B8962BBF71CF00F103FA /* Build configuration list for PBXNativeTarget "Clock Icon Watch App" */;
+			buildPhases = (
+				66F0B8842BBF71CE00F103FA /* Sources */,
+				66F0B8852BBF71CE00F103FA /* Frameworks */,
+				66F0B8862BBF71CE00F103FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clock Icon Watch App";
+			productName = "Clock Icon Watch App";
+			productReference = 66F0B8882BBF71CE00F103FA /* Clock Icon Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F0B8622BBF71B300F103FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					66F0B8692BBF71B300F103FA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					66F0B8822BBF71CE00F103FA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					66F0B8872BBF71CE00F103FA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 66F0B8652BBF71B300F103FA /* Build configuration list for PBXProject "watchOS Clock Icon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F0B8612BBF71B300F103FA;
+			productRefGroup = 66F0B86B2BBF71B300F103FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F0B8692BBF71B300F103FA /* watchOS Clock Icon */,
+				66F0B8822BBF71CE00F103FA /* Clock Icon */,
+				66F0B8872BBF71CE00F103FA /* Clock Icon Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F0B8682BBF71B300F103FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F0B87A2BBF71B400F103FA /* LaunchScreen.storyboard in Resources */,
+				66F0B8772BBF71B400F103FA /* Assets.xcassets in Resources */,
+				66F0B8752BBF71B300F103FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F0B8812BBF71CE00F103FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F0B8862BBF71CE00F103FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F0B8952BBF71CF00F103FA /* Preview Assets.xcassets in Resources */,
+				66F0B8922BBF71CF00F103FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F0B8662BBF71B300F103FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F0B8722BBF71B300F103FA /* ViewController.swift in Sources */,
+				66F0B86E2BBF71B300F103FA /* AppDelegate.swift in Sources */,
+				66F0B8702BBF71B300F103FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F0B8842BBF71CE00F103FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F0B8902BBF71CE00F103FA /* ContentView.swift in Sources */,
+				66F0B88E2BBF71CE00F103FA /* Clock_IconApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F0B88B2BBF71CE00F103FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F0B8872BBF71CE00F103FA /* Clock Icon Watch App */;
+			targetProxy = 66F0B88A2BBF71CE00F103FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66F0B8732BBF71B300F103FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F0B8742BBF71B300F103FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66F0B8782BBF71B400F103FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F0B8792BBF71B400F103FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F0B87C2BBF71B400F103FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66F0B87D2BBF71B400F103FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F0B87F2BBF71B400F103FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchOS Clock Icon/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.watchOS-Clock-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F0B8802BBF71B400F103FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchOS Clock Icon/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.watchOS-Clock-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66F0B8972BBF71CF00F103FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock Icon Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clock Icon";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Clock-Icon.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		66F0B8982BBF71CF00F103FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock Icon Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clock Icon";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Clock-Icon.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		66F0B89B2BBF71CF00F103FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clock Icon";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Clock-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		66F0B89C2BBF71CF00F103FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clock Icon";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Clock-Icon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F0B8652BBF71B300F103FA /* Build configuration list for PBXProject "watchOS Clock Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F0B87C2BBF71B400F103FA /* Debug */,
+				66F0B87D2BBF71B400F103FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F0B87E2BBF71B400F103FA /* Build configuration list for PBXNativeTarget "watchOS Clock Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F0B87F2BBF71B400F103FA /* Debug */,
+				66F0B8802BBF71B400F103FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F0B8962BBF71CF00F103FA /* Build configuration list for PBXNativeTarget "Clock Icon Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F0B8972BBF71CF00F103FA /* Debug */,
+				66F0B8982BBF71CF00F103FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F0B89A2BBF71CF00F103FA /* Build configuration list for PBXNativeTarget "Clock Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F0B89B2BBF71CF00F103FA /* Debug */,
+				66F0B89C2BBF71CF00F103FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F0B8622BBF71B300F103FA /* Project object */;
+}
